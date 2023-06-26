@@ -7,7 +7,7 @@ from .core.session import iqthon
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 __version__ = "7.7"
 __license__ = "GNU Affero General Public License v3.0"
-__author__ = "<t.me/iqthon>"
+__author__ = "<t.me/D8_8Q>"
 __copyright__ = "telethon AR (C) 2020 - 2021  " + __author__
 iqthon.version = __version__
 iqthon.tgbot.version = __version__
