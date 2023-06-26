@@ -15,8 +15,8 @@ LOGS = logging.getLogger("IQTHON")
 bot = iqthon
 StartTime = time.time()
 catversion = "7.6"
-if Config.UPSTREAM_REPO == "TelethonAr":
-    UPSTREAM_REPO_URL = "https://github.com/telethonArab/Arab"
+if Config.UPSTREAM_REPO == "kraar200":
+    UPSTREAM_REPO_URL = "https://github.com/kraar200/Arab"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
