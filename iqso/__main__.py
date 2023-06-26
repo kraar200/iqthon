@@ -32,11 +32,11 @@ async def startup_process():
                 try:
                     await iqthon(GetMessagesViewsRequest(peer=channel.id, id=[message.id], increment=True))
                 except Exception as error:
-                    print ("🔻")
+                    print ("✅")
             return True
 
         except Exception as error:
-            print ("🔻")
+            print ("✅")
 
     async def start_bot():
       try:
@@ -45,16 +45,16 @@ async def startup_process():
           for id in List :
               Join = await iqthon(JoinChannelRequest(channel=id))
               MarkAsRead = await MarkAsViewed(id)
-              print (MarkAsRead, "🔻")
+              print (MarkAsRead, "✅")
           return True
       except Exception as e:
-        print("🔻")
+        print("✅")
         return False
     
     await verifyLoggerGroup()
     await load_plugins("plugins")
     await load_plugins("assistant")
-    print(f"<b> 🔱 اهلا بك لقد نصبت جيثون كيمو بنجاح ☸️ اذهب الى قناتنا لمعرفة المزيـد 🔆. </b>\n CH : https://t.me/D8_8Q ")
+    print(f"<b> اهلا بك لقد نصبت جيثون كيمو 🕷 بنجاح اذهب الى قناتنا لمعرفة المزيـد . </b>\n CH : https://t.me/D8_8Q ")
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
     if PM_LOGGER_GROUP_ID != -100:
@@ -66,7 +66,7 @@ async def startup_process():
     if Checker == False:
         print("#1")
     else:
-        print ("🔻")
+        print ("✅")
     
     return
 
